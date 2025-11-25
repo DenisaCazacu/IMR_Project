@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class ObjectPositionRandomizer : MonoBehaviour
 {
@@ -10,12 +11,13 @@ public class ObjectPositionRandomizer : MonoBehaviour
     
     private int randomizeCheckIntervalSeconds = 5;
     private float lastCheckTime;
-    
+
+    private XRGrabInteractable grabInteract;
     private void Awake()
     {
         rend = targetObject.GetComponentInChildren<Renderer>();
+        grabInteract = targetObject.GetComponent<XRGrabInteractable>();
     }
-
     private void Update()
     {
         if(Time.time - lastCheckTime > randomizeCheckIntervalSeconds)
@@ -27,7 +29,7 @@ public class ObjectPositionRandomizer : MonoBehaviour
 
     void RandomizeMoved()
     {
-        if (Vector3.Distance(targetObject.position,positions[currentPosition].position) > 0.5f && !FOVStateProvider.Instance.IsObjectInFOV(rend))
+        if (!grabInteract.isSelected && Vector3.Distance(targetObject.position,positions[currentPosition].position) > 0.5f && !FOVStateProvider.Instance.IsObjectInFOV(rend))
         {
             currentPosition = (currentPosition + 1) % positions.Length;
             targetObject.position = positions[currentPosition].position;
