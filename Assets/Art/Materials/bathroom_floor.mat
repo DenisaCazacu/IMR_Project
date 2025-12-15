@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mug
+  m_Name: bathroom_floor
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 174960e3212d72d4ab574ae26a876ed2, type: 2}
+  m_Parent: {fileID: 2100000, guid: a0bc5c7bab5b2864e990a536e29d65e8, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -22,14 +22,12 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Glossiness: 0
+    - _Metallic: 0.717
     m_Colors:
-    - _Color: {r: 0.96981126, g: 0.15919538, b: 0.23042198, a: 1}
+    - _Color: {r: 0.7075472, g: 0.3740398, b: 0.23028658, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
