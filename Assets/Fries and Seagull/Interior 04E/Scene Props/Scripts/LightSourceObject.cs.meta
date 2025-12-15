@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6586ae77d582401e87d393effa4e0955
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311111
+  packageName: Bedrooms & Bathroom / Interior - Low Poly assets
+  packageVersion: 1.0
+  assetPath: Assets/Fries and Seagull/Interior 04E/Scene Props/Scripts/LightSourceObject.cs
+  uploadId: 734940
