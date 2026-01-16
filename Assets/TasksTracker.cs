@@ -66,5 +66,13 @@ public class TasksTracker : MonoBehaviour
             }
         }
     }
-    
+
+    [ContextMenu("Complete Current Task")]
+    private void CompleteCurrentTask()
+    {
+        if (allTasks != null && allTasks.Count > 0 && currentTaskIndex < allTasks.Count)
+        {
+            CompleteTask(allTasks[currentTaskIndex].id);
+        }
+    }
 }
