@@ -46,7 +46,7 @@ public class AlteringManager : MonoBehaviour
                 yield return StartCoroutine(photo.ProcessNextStage());
                 
                 // Optional: Small pause between photos so they don't happen back-to-back instantly
-                yield return new WaitForSeconds(2f);
+                yield return new WaitForSeconds(10f);
             }
 
             Debug.Log("Director: Round complete. Starting next decay level...");

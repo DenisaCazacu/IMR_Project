@@ -4,8 +4,8 @@ using UnityEngine;
 public class ImageAltering : MonoBehaviour
 {
     public Texture[] photoStages;
-    public float minWaitTime = 5f; // Time to wait AFTER being seen
-    public float maxWaitTime = 15f;
+    [SerializeField] public  float minWaitTime = 5f; // Time to wait AFTER being seen
+    [SerializeField] public float maxWaitTime = 15f;
 
     private Renderer rend;
     private int currentStage = 0;
@@ -36,7 +36,7 @@ public class ImageAltering : MonoBehaviour
         float waitTime = Random.Range(minWaitTime, maxWaitTime);
         yield return new WaitForSeconds(waitTime);
 
-        // 3. WAIT FOR HIDE (Player must look away to trigger the scare)
+        // 3. WAIT FOR HIDE (Player must look away to trigger the change)
         while (rend.isVisible)
         {
             yield return null;
