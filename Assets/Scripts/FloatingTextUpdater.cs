@@ -13,7 +13,6 @@ public class FloatingTextUpdater : MonoBehaviour
 
     private void Start()
     {
-        // Simple runtime sanity check; replace with your actual text.
         SetText("Test");
     }
 
