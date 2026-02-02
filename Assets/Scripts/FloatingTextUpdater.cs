@@ -51,6 +51,8 @@ public class FloatingTextUpdater : MonoBehaviour
                 audioSource = gameObject.AddComponent<AudioSource>();
             }
         }
+        
+        StartDialogue();
     }
 
     /// <summary>

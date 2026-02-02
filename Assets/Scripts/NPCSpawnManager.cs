@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class NPCSpawnManager : MonoBehaviour
@@ -11,13 +12,18 @@ public class NPCSpawnManager : MonoBehaviour
     public string friendSpawnTaskID = "find_umbrella"; 
 
     [Tooltip("The exact Task ID that swaps Friend for Mother")]
-    public string motherSwapTaskID = "find_keys";    
+    public string motherSwapTaskID = "find_keys";
+
+    private void Awake()
+    {
+        if(friendNPC != null) friendNPC.SetActive(false);
+        if(motherNPC != null) motherNPC.SetActive(false);
+    }
 
     void Start()
     {
         // 1. Ensure everyone is hidden at the start of the game
-        if(friendNPC != null) friendNPC.SetActive(false);
-        if(motherNPC != null) motherNPC.SetActive(false);
+
 
         // 2. Subscribe to the Task Tracker
         if (TasksTracker.Instance != null)
