@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: f2cfa003f50d8dd41919c699e436adcd
+guid: 3e71d592b9c91f148bef65a7c2b9d680
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 112000000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 260446
-  packageName: City People FREE Samples
-  packageVersion: 1.2.0
-  assetPath: Assets/DenysAlmaral/CityPeople/Demo_Scenes/Demo_2_IsoCity free-samples/LightingData.asset
-  uploadId: 833900

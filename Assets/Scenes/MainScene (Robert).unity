@@ -20182,18 +20182,6 @@ PrefabInstance:
       value: TextBOX
       objectReference: {fileID: 0}
     - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.029951055
-      objectReference: {fileID: 0}
-    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.54182345
-      objectReference: {fileID: 0}
-    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3334277
-      objectReference: {fileID: 0}
-    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.010399261
       objectReference: {fileID: 0}
@@ -20232,26 +20220,6 @@ PrefabInstance:
     - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177702040496116235, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c5f371402589a340b855e18e656a2a4, type: 2}
-    - target: {fileID: 9071903625846574910, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_fontColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071903625846574910, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_fontColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071903625846574910, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071903625846574910, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a6f6960d990dfbb428fbbfda951918aa
+guid: 0b44fc27a6b55c34abe89e489c164be9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -16,8 +16,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -107,10 +105,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 260446
-  packageName: City People FREE Samples
-  packageVersion: 1.2.0
-  assetPath: Assets/DenysAlmaral/CityPeople/Meshes/PROPS/tools.fbx
-  uploadId: 833900
