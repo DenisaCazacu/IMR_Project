@@ -7354,6 +7354,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1939924849}
     m_Modifications:
+    - target: {fileID: 710166658773520742, guid: b76de77e9e36a1c44b094c10711555eb, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7348643258206407952, guid: b76de77e9e36a1c44b094c10711555eb, type: 3}
       propertyPath: m_LocalScale.x
       value: 9.487876
@@ -20378,9 +20382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e91646477d105f4d9f133fcc8396ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  taskId: get_key
-  grabInteractable: {fileID: 1984974098}
-  objectForTask: {fileID: 1984974096}
+  taskId: get_pills
+  grabInteractable: {fileID: 1624962676}
+  objectForTask: {fileID: 1624962674}
   objectFinalPosition: {fileID: 1908700264}
   floorBlocker: {fileID: 208631234}
   finalDestination: {fileID: 1021577661}
@@ -21788,7 +21792,7 @@ GameObject:
   - component: {fileID: 1624962678}
   - component: {fileID: 1624962677}
   m_Layer: 0
-  m_Name: InteractablePhone
+  m_Name: InteractablePills
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21803,7 +21807,7 @@ Transform:
   m_GameObject: {fileID: 1624962674}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 10.75, y: 23.605, z: -23.342}
+  m_LocalPosition: {x: 10.75, y: 24.132, z: -23.342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21976,7 +21980,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624962674}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22310,8 +22314,6 @@ MonoBehaviour:
   targetObject: {fileID: 1624962675}
   positions:
   - {fileID: 314913789}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1001 &1662694893
 PrefabInstance:
   m_ObjectHideFlags: 0
