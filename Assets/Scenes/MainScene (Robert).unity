@@ -376,6 +376,11 @@ MonoBehaviour:
     description: keys
   - id: final
     description: final
+--- !u!4 &73003029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+  m_PrefabInstance: {fileID: 1910178643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &80852488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,7 +6179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 186757882122740016, guid: bcc8732b8b44622449c23934f89e68c0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 710636224206764938, guid: bcc8732b8b44622449c23934f89e68c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6222,7 +6227,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 710636224206764938, guid: bcc8732b8b44622449c23934f89e68c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 73003029}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc8732b8b44622449c23934f89e68c0, type: 3}
 --- !u!1 &491692864
@@ -14099,6 +14107,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1432866067}
     m_Modifications:
     - target: {fileID: 1058556038379161208, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
+      propertyPath: PaletteOverride
+      value: 
+      objectReference: {fileID: 2100000, guid: c2de9ee12d731e14e93392e0a8046454, type: 2}
+    - target: {fileID: 1058556038379161208, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
       propertyPath: AutoPlayAnimations
       value: 0
       objectReference: {fileID: 0}
@@ -14108,7 +14120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1616406060653692748, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2100208028559941110, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19264,6 +19276,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1053357380960435366, guid: 798cab9a237d184479fa2e6d3e55fb57, type: 3}
   m_PrefabInstance: {fileID: 1905552319}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1910178643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1417408676}
+    m_Modifications:
+    - target: {fileID: 331055576299982177, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_Name
+      value: TextBOX (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.029951056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5418235
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.020000136
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1280005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747275022464044535, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].text
+      value: ' Andrew, why are you holding the keys in your hand, what are you doing
+        with them?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[1].text
+      value: Ohh honey, there's no one here... Did you get your pills today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa166c7902b97848adfbbb0120e2391, type: 3}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2fc5b0486b88e7e4490e08160ac21039, type: 3}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].replyAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 374ff581f8d1c0848b7e933ba8cc1a9b, type: 3}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[1].replyAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b1567a1c71ab1c46ada5a0adac97286, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1831784311940864332, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
 --- !u!43 &1915412428
 Mesh:
   m_ObjectHideFlags: 0
@@ -20221,13 +20330,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].text
+      value: 'Hi, Alex! I''ve been waiting for you here for decades, let''s go into
+        town for coffee!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5fca9d814bd5399429cae779c714d220, type: 3}
+    - target: {fileID: 6080824227854939181, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
+      propertyPath: dialogues.Array.data[0].replyAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3767c0aee77f0564ea6790702fe1f89b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1831784311940864332, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ccb86cf49fcaaa47bb5d7454ac04ccf, type: 3}
 --- !u!1 &2058991039
 GameObject:
